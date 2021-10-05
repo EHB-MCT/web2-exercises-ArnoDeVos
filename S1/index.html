@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="/S1/script.js"></script>
+    <title>s1</title>
+</head>
+
+<body>
+    <h1>WEB 2 First exercises</h1>
+    <form>
+        <div>
+            <label for="nameInput">Name</label>
+            <input type="text" name="name" id="nameInput" required>
+        </div>
+        <div>
+           <label for="emailInput">Email address</label>
+            <input type="email" name="email"  id="emailInput" placeholder="name@domain">
+        </div>
+        <!-- <div >
+            <label for="orderInput">Order</label>
+            <input type="text" name="order" clas id="orderInput" >
+        </div> -->
+        <div> 
+            <label for="orderInput">Order</label>
+            <div>
+                <input type="radio" name="dish" id="dish1" value="1" checked>
+                <label for="numRadio1">
+                  Burger and french fries
+                </label>
+              </div>
+              <div>
+                <input  type="radio" name="dish" id="dish2" value="2">
+                <label for="numRadio2">
+                  Pizza
+                </label>
+              </div>
+              <div>
+                <input type="radio" name="dish" id="dish3" value="3">
+                <label for="numRadio3">
+                   Spaghetti
+                </label>
+              </div> 
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+    </form>
+    <div id="messages">
+        
+    </div>
+    
+</body>
+
+</html>
